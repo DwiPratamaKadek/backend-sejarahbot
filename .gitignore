@@ -1,3 +1,8 @@
-/backend-sejarah/.env
-/backend-sejarah/env/
-/backend-sejarah/_pychache_
+env/
+__pycache__/
+*.pyc
+*.pyd
+*.dll
+*.lib
+.DS_Store
+.env
