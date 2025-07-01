@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+langchain
+chromadb
+google-generativeai
+pillow
+python-dotenv
+langchain-google-genai
+langchain-community
+chromadb
+requests
+beautifulsoup4
+replicate
+transformers 
+torch
