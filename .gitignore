@@ -1,17 +1,43 @@
-.env
-# Abaikan virtual environment
+# ========== Virtual Environment ==========
 env/
+.venv/
 
-# Abaikan file besar atau binary
-*.pyd
-*.dll
-*.lib
-
-# Abaikan file cache Python
+# ========== Python Bytecode ==========
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Abaikan file log/temp
+# ========== Binary / Library Files ==========
+*.so
+*.dll
+*.dylib
+*.lib
+*.pyd
+
+# ========== Log / Temporary Files ==========
 *.log
 *.tmp
+*.swp
+*.bak
+*.old
+
+# ========== Environment & Config ==========
+.env
+.env.*
+
+# ========== VS Code (optional, untuk personal config) ==========
+.vscode/
+
+# ========== Jupyter Notebook Checkpoints ==========
+.ipynb_checkpoints/
+
+# ========== OS / File System ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== Distribution / Packaging ==========
+*.egg
+*.egg-info/
+dist/
+build/
