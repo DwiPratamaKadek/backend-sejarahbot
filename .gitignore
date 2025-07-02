@@ -1,0 +1,17 @@
+.env
+# Abaikan virtual environment
+env/
+
+# Abaikan file besar atau binary
+*.pyd
+*.dll
+*.lib
+
+# Abaikan file cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Abaikan file log/temp
+*.log
+*.tmp
